@@ -107,6 +107,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
         else
         {
             //display(hWnd, hDC);
+            glClearColor(0.08, 0.15, 0, 1);
             glClear(GL_COLOR_BUFFER_BIT);
             glLoadIdentity();
             glPushMatrix(); // Запоминаем текущую матрицу

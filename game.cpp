@@ -232,7 +232,7 @@ void Game::display()
 	for (auto i : food)
 	{
 		glBegin(GL_LINE_LOOP);
-		glColor3f(0, 1, 0);
+		glColor3f(1, 0, 1);
 		glVertex2d(i.x + 10, i.y + 10);
 		glVertex2d(i.x + 1 + 10, i.y + 10);
 		glVertex2d(i.x + 1 + 10, i.y + 1 + 10);
